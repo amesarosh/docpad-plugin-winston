@@ -1,0 +1,41 @@
+{
+  "name": "docpad-plugin-winston",
+  "version": "2.0.0",
+  "description": "DocPad plugin that replaces the default logger with Winston",
+  "homepage": "https://github.com/amesarosh/docpad-plugin-winston",
+  "keywords": [
+    "docpad",
+    "docpad-plugin",
+    "winston"
+  ],
+  "author": "Alex Mesarosh",
+  "maintainers": [
+    "Alex Mesarosh (https://github.com/amesarosh)"
+  ],
+  "contributors": [
+    "Alex Mesarosh (https://github.com/amesarosh)"
+  ],
+  "bugs": {
+    "url": "https://github.com/amesarosh/docpad-plugin-winston/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/amesarosh/docpad-plugin-winston.git"
+  },
+  "engines": {
+    "node": ">=0.8"
+  },
+  "peerDependencies": {
+    "docpad": "6"
+  },
+  "dependencies": {
+    "winston": "~0.7.2"
+  },
+  "devDependencies": {
+    "coffee-script": "~1.6.3"
+  },
+  "main": "./out/winston.plugin.js",
+  "scripts": {
+    "test": "node ./out/winston.test.js"
+  }
+}
